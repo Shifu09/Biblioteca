@@ -1,0 +1,288 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.login-containerP {
+  position: absolute;
+  top: 50%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: login-containerP 1.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  -webkit-animation: login-containerP 1.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+  @keyframes login-containerP {
+    0% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -o-transform: translateY(0);
+}
+    100% {
+      transform: translateY(-180px);
+      -webkit-transform: translateY(-180px);
+      -moz-transform: translateY(-180px);
+      -ms-transform: translateY(-180px);
+      -o-transform: translateY(-180px);
+}
+}
+
+.login-containerA {
+  position: absolute;
+  top: 50%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: login-containerP 1.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  -webkit-animation: login-containerP 1.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+  @keyframes login-containerA {
+    0% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -o-transform: translateY(0);
+}
+    100% {
+      transform: translateY(-180px);
+      -webkit-transform: translateY(-180px);
+      -moz-transform: translateY(-180px);
+      -ms-transform: translateY(-180px);
+      -o-transform: translateY(-180px);
+}
+}
+
+.login-containerD{
+  position: absolute;
+  top: 50%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: login-containerP 1.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  -webkit-animation: login-containerP 1.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+@keyframes login-containerD {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+  100% {
+    transform: translateY(-180px);
+    -webkit-transform: translateY(-180px);
+    -moz-transform: translateY(-180px);
+    -ms-transform: translateY(-180px);
+    -o-transform: translateY(-180px);
+}
+}
+  .text_model{
+  top: 11%;
+  left: 37%;
+  text-align: center;
+  position: absolute;
+  font-family: 'Roboto Mono', monospace;
+}
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+  }
+  
+  label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #999;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.3s ease all;
+  }
+  
+  input:focus + label,
+  input:not(:placeholder-shown) + label {
+    top: -20px;
+    left: 0;
+    font-size: 12px;
+    color: #333;
+  }
+
+  button {
+    width: 150px;
+    height: 40px;
+    background-color: #f53a3a;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+
+  }
+  
+  button:hover {
+    background-color: #f20f0feb;
+    box-shadow: 0 8px 8px 0 #000000e4;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  .sap {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+}
+  
+  .sap:hover {
+    background-color: #555;
+  }
+  img{
+    width: 1375px;
+  }
+.p{
+  width: 1400px;
+  height: 700px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#fuck{
+  background-image: url(img/sun.jpg);
+  overflow-y: scroll;
+  
+}
+
+.container {
+  border: solid 2px rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 105vh;
+}
+
+table {
+  color: #000000f9;
+  font-style: oblique;
+  font-size: 14px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+td {
+  padding: 15px;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+  vertical-align:middle;
+}
+
+
+tbody tr {
+  cursor: pointer;
+}
+
+tbody tr:hover {
+  background: rgba(12, 116, 236, 0.46);
+}
+.login-container {
+	-webkit-animation: login-container 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: login-container 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
